@@ -1,0 +1,21 @@
+.thank-you {
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    animation: fade .3s ease-out;
+}
+
+.thank-you__selection-info {
+    background: var(--rating-color);
+    border-radius: 9999px;
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: 0.8rem;
+    margin: 1.5rem 0;
+    padding: 0.3333rem 1rem;
+}
+
+.thank-you .title {
+    margin-bottom: 0.5rem;
+}

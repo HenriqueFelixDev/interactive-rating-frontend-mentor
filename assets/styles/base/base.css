@@ -1,0 +1,32 @@
+:root {
+    --primary-color: hsl(25, 97%, 53%);
+    --text-color: hsl(0, 0%, 100%);
+    --text-secondary-color: hsl(216, 12%, 54%);
+    --rating-color: hsl(213, 19%, 18%);
+    --surface-color: hsl(215, 25%, 14%);
+    --background-color: hsl(228, 11%, 9%);
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background: var(--background-color);
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+main {
+    background: var(--surface-color);
+    border-radius: 1.6rem;
+    max-width: 340px;
+    padding: 2rem 1.5rem;
+    box-sizing: border-box;
+}

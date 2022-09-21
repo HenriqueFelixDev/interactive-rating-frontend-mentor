@@ -1,0 +1,17 @@
+.btn {
+    border: none;
+    border-radius: 99999px;
+    cursor: pointer;
+    font: inherit;
+    text-align: center;
+    transition: all .15s linear;
+    outline: none;
+    user-select: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
